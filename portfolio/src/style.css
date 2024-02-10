@@ -1,0 +1,63 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+  * {
+      margin: 0;
+      font-family: poppins;
+  }
+
+  .body {
+      display: grid;
+      grid-template-columns: 4fr 10fr;
+  }
+
+  .header-container {
+      display: grid;
+      place-items: center;
+      border: 2px solid gray;
+  }
+
+  .contact-details {
+      display: flex;
+      gap: 15px;
+  }
+
+  .header-container img {
+      width: 100px;
+  }
+
+  .head-card{
+    display: flex;
+    gap: 20px;
+  }
+
+  .head-card h1{
+    margin-top: 30px;
+  }
+
+  .leftbar-container {
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border-right: 2px solid gray;
+  }
+
+  .leftbar-container ul {
+      padding-left: 30px;
+  }
+
+  .edcation-card {
+      padding: 10px 0;
+      position: relative;
+  }
+
+  .course {
+      position: absolute;
+      top: 9px;
+      right: 10px;
+  }
+
+  .title {
+      font-size: 1.2rem;
+      font-weight: bold;
+  }
