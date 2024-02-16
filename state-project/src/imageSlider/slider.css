@@ -1,0 +1,22 @@
+.slider{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slide{
+    border: 1px solid red;
+    padding: 10px;
+    width: 40vw;
+    height: 60vh;
+}
+
+#img{
+    width: 40vw;
+    height: 60vh;
+}
+
+.left-arrow, .right-arrow{
+    margin-top: 30vh;
+    cursor: pointer;
+}
